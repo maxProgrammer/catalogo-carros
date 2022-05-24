@@ -1,11 +1,11 @@
 # catalogo-carros
 
-> Status: Construction 🚧
+> Status: Completed ✅
 
 ### Created a car catalog using HTML and CSS
 
 <h1 align="center">
-  <img alt="Readme" title="Readme" src="https://user-images.githubusercontent.com/87916631/169937259-1fb3736a-7473-47f0-a3f6-81c13aeb67ac.png"/>
+  <img alt="Readme" title="Readme" src="https://user-images.githubusercontent.com/87916631/170057609-bad1e515-9761-4294-b7c7-ab3e965c8a7c.gif"/>
 </h1>
 
 ## ⚒️ Technologies
