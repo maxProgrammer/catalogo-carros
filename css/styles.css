@@ -31,6 +31,7 @@ header {
 }
 
 /*  abordagem mobile first */
+
 .content {
     max-width: 1000px;
     min-width: 300px;
@@ -50,11 +51,18 @@ nav {
     justify-content: space-between;
 }
 
-.brand {
+.brand a {
     font-size: 24px;
+    text-decoration: none;
     color: var(--blue);
     cursor: pointer;
+
 }
+
+.brand a:hover {
+    color: #00285f83;
+}
+
 
 
 nav ul {
@@ -412,83 +420,86 @@ footer .last {
 }
 
 /* Responsive adjustments */
-@media(max-width:576px){
-    nav ul li{
+@media(max-width:576px) {
+    nav ul li {
         display: none;
     }
 
-    .header-block img{
+    .header-block img {
         width: 70%;
         position: absolute;
         right: 16%;
         top: 30%;
     }
 
-    .header-block .text{
+    .header-block .text {
         position: absolute;
         bottom: 10%;
         left: 15;
     }
 
-    section .filter-card{
+    section .filter-card {
         width: 390px;
         padding: 0px 10px;
-      
+
     }
 
-    .search-input{
+    .search-input {
         max-width: 700px;
         min-width: 240px;
     }
 
-    .search-button{
+    .search-button {
         max-width: 150px;
         min-width: 80px;
     }
 
-    .about{
-        margin-top: 100px;        
+    .about {
+        margin-top: 100px;
     }
 
-    .title-wrapper-about{
+    .title-wrapper-about {
         margin-bottom: 20px;
     }
 
-    .about-content{
+    .about-content {
         flex-direction: column;
         height: 100%;
     }
-    .left{
+
+    .left {
         display: none;
     }
-    .right{
+
+    .right {
         width: 90%;
     }
-    .right p{
+
+    .right p {
         width: 100%;
         margin: 0px;
         text-align: left;
     }
 
-    .features{
+    .features {
         height: 100%;
     }
 
-    .feature-card-block{
+    .feature-card-block {
         height: 100%;
         display: flex;
         flex-direction: column;
     }
 
-    footer{
+    footer {
         height: 100%;
     }
 
-    footer .main{
+    footer .main {
         height: 100%;
     }
 
-    .footer-links{
+    .footer-links {
         flex-direction: column;
         padding-left: 10%;
     }
